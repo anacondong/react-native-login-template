@@ -1,0 +1,11 @@
+* Run
+npm install
+npm run android
+Android studio >> Run Emu
+Expo browser >> Run on Android device
+
+***
+app.json ** Meta data for mobile
+App.js >> Starter
+screens >> layout (Page)
+components >> components under screens (Element)

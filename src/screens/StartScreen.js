@@ -12,6 +12,10 @@ const StartScreen = ({ navigation }) => (
     <Paragraph>
       The easiest way to start with your amazing application.
     </Paragraph>
+
+    <Paragraph>
+      Hi there !!
+    </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
       Login
     </Button>
@@ -20,6 +24,10 @@ const StartScreen = ({ navigation }) => (
       onPress={() => navigation.navigate('RegisterScreen')}
     >
       Sign Up
+    </Button>
+
+    <Button mode="contained" onPress={() => navigation.navigate('DongScreen')}>
+      DongScreen
     </Button>
   </Background>
 )
